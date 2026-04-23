@@ -14,6 +14,6 @@ function text(){
         }
     }
     function easter_eggs(){
-
+        
     }
 }

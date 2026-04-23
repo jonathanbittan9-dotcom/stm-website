@@ -1,14 +1,27 @@
 body{
     background-color: rgba(0, 0, 0, 0.855);
+    margin: 0px;
 }
 #navbar{
-    margin: 0px;    
-    background-color: rgba(132, 190, 24, 0.868);
+    visibility: sticky;    
+    background-color: rgba(138, 200, 22, 0.868);
     height: 30px;
     color: black;
-    font-size: 20px
+    font-size: 20px;
+    transition:  1s ease 0s ,box-shadow 1s ease 0s , height 1s ease 0s , font-size 1s ease 0s;
+}
+#navbar:hover{
+    background-color: greenyellow;
+    box-shadow:3px 3px 3px greenyellow;
+    height: 40px;
+    font-size: 30px;
 }
 #easter_egg{
-    margin: auto;
+    margin:auto;
+    margin-top: 325px;
+    width: fit-content;
+    color:rgba(21, 216, 216, 0.918);
+    font-size: 50px;
+    transition: 1s ease 0s  , border 1s ease 0s;
 }
 
