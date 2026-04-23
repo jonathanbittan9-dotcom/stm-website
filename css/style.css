@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(0, 0, 0, 0.855);
+}
+#navbar{
+    margin: 0px;    
+    background-color: rgba(132, 190, 24, 0.868);
+    height: 30px;
+    color: black;
+    font-size: 20px
+}
+#easter_egg{
+    margin: auto;
+}
+
