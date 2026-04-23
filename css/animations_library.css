@@ -1,9 +1,0 @@
-@keyframes easter_egg_pop{
-    from{
-        transform: (translateY(0px))
-    }
-    to{
-        transform: (translateY(325px));
-    }
-}
- 

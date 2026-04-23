@@ -16,12 +16,28 @@ body{
     height: 40px;
     font-size: 30px;
 }
+@keyframes easter_egg_pop{
+    from{
+        transform: translateY(-600px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+ 
 #easter_egg{
     margin:auto;
     margin-top: 325px;
     width: fit-content;
     color:rgba(21, 216, 216, 0.918);
     font-size: 50px;
-    transition: 1s ease 0s  , border 1s ease 0s;
+    animation-name: easter_egg_pop;
+    animation-duration:3s ;
+    animation-timing-function:ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction:normal ;
+    animation-fill-mode:none;
 }
+
 
