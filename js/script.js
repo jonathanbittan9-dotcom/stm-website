@@ -3,6 +3,7 @@ let easter_egg_count = 0
 text_navbar()
 easter_eggs()
 homepage_text()
+discord_element()
 function text_navbar(){
     document.getElementById("homepage").textContent = "homepage";
     document.getElementById("navbar").prepend("steam and stem");
@@ -10,7 +11,11 @@ function text_navbar(){
 
 function homepage_text(){
     document.getElementById("title").textContent = '"the best server ever created"';
-    document.getElementById("discord").textContent = "Discord server:";
+    
+
+}
+function discord_element(){
+    document.getElementById("headline-discord").textContent = "Discord server:";
 }
     function easter_eggs(){
         document.getElementById("navbar").onclick = function(){
