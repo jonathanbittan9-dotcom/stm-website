@@ -2,18 +2,24 @@ body{
     background-color: rgba(0, 0, 0, 0.855);
     margin: 0px;
     overflow: scroll;
+    display: flex;
+    flex-direction: column;
 }
 #navbar{
-    visibility: sticky;    
-    background-color: rgba(138, 200, 22, 0.868);
+    visibility: sticky;
+    background-color: rgba(22, 200, 161, 0.868);
     height: 30px;
     color: black;
     font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 15px;
     transition:  1s ease 0s ,box-shadow 1s ease 0s , height 1s ease 0s , font-size 1s ease 0s;
 }
 #navbar:hover{
-    background-color: greenyellow;
-    box-shadow:3px 3px 3px greenyellow;
+    background-color: rgb(47, 255, 189);
+    box-shadow:3px 3px 3px  rgb(255, 255, 255);
     height: 40px;
     font-size: 30px;
 }
@@ -32,8 +38,11 @@ body{
     width: fit-content;
     color:rgba(21, 216, 216, 0.918);
     font-size: 50px;
+    display: inline-block;
+}
+#easter_egg.pop{
     animation-name: easter_egg_pop;
-    animation-duration:3s ;
+    animation-duration:2s ;
     animation-timing-function:ease;
     animation-delay: 0s;
     animation-iteration-count: 1;
@@ -41,3 +50,37 @@ body{
     animation-fill-mode:none;
 }
 
+#link_homepage{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+
+}
+
+#title{
+    margin-left: 460px;
+    margin-top: -200px;
+    display: block;
+    color: white;
+    font-size: 60px;
+}
+#discord{
+    margin-left:1400px;
+    margin-top: -200px;
+    color:#ffffff;
+    background-color: #5865f2;
+    border: 2px solid rgb(28, 27, 27);
+    border-radius: 10px;
+    padding: 30px;
+    height: 50px;
+    width:200px;
+    font-size: 30px;
+    text-align: start;
+    text-align: center;
+    transition: transform 1s ease;
+
+    
+}
+#discord:hover{
+     transform: rotateZ(360deg)
+}
