@@ -1,6 +1,7 @@
 body{
     background-color: rgba(0, 0, 0, 0.855);
     margin: 0px;
+    overflow: scroll;
 }
 #navbar{
     visibility: sticky;    
@@ -39,5 +40,4 @@ body{
     animation-direction:normal ;
     animation-fill-mode:none;
 }
-
 
